@@ -56,6 +56,7 @@ nav{
     border-radius:  5px;
 }
 
+
 .nav-title
 {
     font-weight: 800;
@@ -192,3 +193,40 @@ padding-left: 50px;
 .resume-download-cv{
     margin-top: 50px;
 }
+
+
+/* submit button */
+
+/* .btn-submit
+{
+    padding-top: 18px;
+    padding-bottom: 39px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+} */
+footer
+{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column
+{
+    width: 50%;
+}
+ footer input[type="text"],footer input[type="email"],footer textarea
+ {
+    margin-top: 28px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border:none;
+
+
+ }
