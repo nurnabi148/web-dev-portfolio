@@ -111,12 +111,19 @@ main{
     margin:0 auto;
    
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+
 .about
 {
     padding:131px 156px ;
     border-radius: 10px;
     text-align: center;
-    margin-top: 130px;
+    /* margin-top: 130px; */
+    /* margin-bottom: 130px; */
 }
 .about-items
 {
@@ -130,4 +137,58 @@ main{
 .about-item{
 
 padding-left: 50px;
+}
+
+/* section skills java node.js react mongoDB */
+.text-center
+{
+    text-align: center;
+}
+.skill-container
+{
+    display:flex;
+    gap: 24px;
+}
+.skill 
+{
+    padding: 30px;
+    box-shadow:0px 6px 50px 0px #1b0596;
+    border-radius: 5px;
+    
+}
+
+/* resumee */
+.resume-container
+{
+    display: flex;
+    gap: 24px;
+}
+.resume-column-title,.experience-title
+{
+    margin-bottom: 30px;
+    font-size:30px;
+    font-weight:bold;
+    color: #474747;
+}
+.experience-title
+{
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.experience-sub-title
+{
+    
+    font-size: 20px;
+    font-weight:600;
+    margin-bottom: 20px;
+   
+}
+.experience-description,.experience-description
+{
+    color: #757575;
+}
+
+.resume-download-cv{
+    margin-top: 50px;
 }
