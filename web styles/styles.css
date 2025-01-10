@@ -6,11 +6,27 @@
   font-variation-settings:
     "wdth" 100;
 }
+.section-title
+{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.section-description
+{
+    font-weight: 200px;
+    font-size: 18px;
+    color: #757575;
+}
 .header
 {
     background-image: url(../images/developer.png),url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position:top left,bottom right;
+}
+.second-bg
+{
+    background-color: #FFF8F3;
 }
  /* shared style  */
  .text-primary
@@ -86,4 +102,32 @@ nav li a{
 .banner-discription{
     font-size: 18px;
     font-weight: 200;
+}
+/* about */
+
+main{
+    max-width: 1140px;
+   
+    margin:0 auto;
+   
+}
+.about
+{
+    padding:131px 156px ;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items
+{
+     display: flex;
+     justify-content: space-around;
+}
+.item-description
+{
+    font-weight: bold;
+}
+.about-item{
+
+padding-left: 50px;
 }
