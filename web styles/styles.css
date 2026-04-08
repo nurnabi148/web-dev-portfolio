@@ -259,11 +259,37 @@ footer
     {
         width: calc(100% - 40px);
     }
+    nav{
+        margin: 0 auto;
+    }
+    .baner-greetings,.baner-title{
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
+    }
     nav>ul 
     {
         gap: 20px;
     }
-    
-    
+    .btn-primary{
+        margin: 2px;
+    }
+    .about-items{
+        text-align: center;
+        justify-content: center;
+        /* margin-left: 50px; */
+        margin-right: 55px;
+    }
+    .experience{
+        padding: 10px;
+    }
+    .resume-column-title{
+        text-align: center;
+    }
+    .l-button
+    {
+        display:block;
+        margin:0 auto;
+    }
  }
  
