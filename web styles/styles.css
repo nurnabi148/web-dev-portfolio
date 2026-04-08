@@ -153,7 +153,7 @@ padding-left: 50px;
 .skill 
 {
     padding: 30px;
-    box-shadow:0px 6px 50px 0px #1b0596;
+    box-shadow:0px 6px 50px 0px #b0adbd;
     border-radius: 5px;
     
 }
@@ -230,19 +230,26 @@ footer
 
 
  }
- .hide
- {
-    display: none;
- }
+ 
  @media screen and (max-width:576px)
   {
-    .skill-container,.resume-container, footer,.about-items
+    .skill-container,.resume-container, footer,.about-items,.baner,nav,nav > ul
     {
         flex-direction: column;
     }
+    
     footer ,.about
     {
         padding: 20px;
+    }
+
+    
+    .header
+    {
+        background-image: none;
+    }
+    .baner{
+        margin: 20px;
     }
     .footer-column
     {
@@ -252,4 +259,11 @@ footer
     {
         width: calc(100% - 40px);
     }
+    nav>ul 
+    {
+        gap: 20px;
+    }
+    
+    
  }
+ 
